@@ -1,0 +1,101 @@
+# ============================================================
+# ΑΡΘΡΑ & ΔΗΜΟΣΙΕΥΣΕΙΣ - Δρ. Μαρία Ι. Ανδρίκουλα
+# ============================================================
+# ΜΟΡΦΗ: Κάθε άρθρο ξεκινά με #ARTICLE
+#   #TITLE   → Τίτλος εργασίας (υποχρεωτικό)
+#   #LINK    → Σύνδεσμος DOI ή PubMed (προαιρετικό)
+#   #JOURNAL → Περιοδικό · Έτος (προαιρετικό)
+#
+# Για να ΑΦΑΙΡΕΣΕΤΕ ένα άρθρο: διαγράψτε όλες τις γραμμές του
+# Για να ΠΡΟΣΘΕΣΕΤΕ: αντιγράψτε ένα #ARTICLE μπλοκ και συμπληρώστε
+# ============================================================
+
+#ARTICLE
+#TITLE Thyroid autoimmunity is associated with higher urinary iodine concentrations in an iodine-deficient area of Northwestern Greece
+#LINK https://pubmed.ncbi.nlm.nih.gov/10211605/
+#JOURNAL Thyroid, 1999
+
+#ARTICLE
+#TITLE The role of Fas-mediated apoptosis in thyroid disease
+#LINK https://pubmed.ncbi.nlm.nih.gov/11375789/
+#JOURNAL Eur J Endocrinol. 2001
+
+#ARTICLE
+#TITLE Fas and Bcl-2 protein expression in thyrocytes of patients with nodular goiter
+#LINK https://pubmed.ncbi.nlm.nih.gov/11580996/
+#JOURNAL Eur J Endocrinol. 2001
+
+#ARTICLE
+#TITLE Fine needle aspiration biopsy-RT-PCR molecular analysis of thyroid nodules: a useful preoperative diagnostic tool
+#LINK https://pubmed.ncbi.nlm.nih.gov/16682941/
+#JOURNAL Minerva Endocrinologica 2006
+
+#ARTICLE
+#TITLE Hypolipidaemia is not always indicating liver dysfunction. A review of primary and secondary high density lipoprotein and low density lipoprotein deficiencies
+#LINK https://pubmed.ncbi.nlm.nih.gov/17213785/
+#JOURNAL Minerva Med. 2006
+
+#ARTICLE
+#TITLE The contribution of ApoB and ApoA1 measurements to cardiovascular risk assessment
+#LINK https://pubmed.ncbi.nlm.nih.gov/18333887/
+#JOURNAL Diabetes Obes Metab. 2008
+
+#ARTICLE
+#TITLE Serum levels of soluble fas in patients with multinodular goiter
+#LINK https://pubmed.ncbi.nlm.nih.gov/19811416/
+#JOURNAL Immunol Invest 2009
+
+#ARTICLE
+#TITLE Menopausal hot flush: is it only a nuisance or also a marker of cardiovascular disease risk?
+#LINK https://pubmed.ncbi.nlm.nih.gov/19903044/
+#JOURNAL Gynaecological Endocrinology 2009
+
+#ARTICLE
+#TITLE Menopausal hot flushes revisited
+#LINK https://pubmed.ncbi.nlm.nih.gov/19061056/
+#JOURNAL Climacteric 2009
+
+#ARTICLE
+#TITLE Congenital hypopituitarism: Monitoring after coronary artery bypass grafting
+#LINK https://pubmed.ncbi.nlm.nih.gov/20826970/
+#JOURNAL Annals of Cardiac Anaesthesia 2010
+
+#ARTICLE
+#TITLE Active Paget’s Disease of Bone with normal biomarkers of bone metabolism: a case report and review of the literature
+#LINK https://pubmed.ncbi.nlm.nih.gov/20886248/
+#JOURNAL Clinical Rheumatology 2011
+
+#ARTICLE
+#TITLE The effects of micronutrtient supplementation on vasomotor symptoms, mood and health-related quality of life in post-menopausal women: a randomised placebo-controlled study
+#LINK https://pubmed.ncbi.nlm.nih.gov/21413865/
+#JOURNAL Climacteric 2011
+
+#ARTICLE
+#TITLE PROP-1 gene mutations in a 63-year-old woman presenting with osteoporosis and hyperlipidaemia
+#LINK https://pubmed.ncbi.nlm.nih.gov/23624138/
+#JOURNAL Hormones (Athens) 2013
+
+#ARTICLE
+#TITLE Hypokalemic paralysis following administration of intravenous methylprednisolone in a patient with Graves’ thyrotoxicosis and ophthalmopathy
+#LINK https://pubmed.ncbi.nlm.nih.gov/22281888/
+#JOURNAL Hormones (Athens) 2011
+
+#ARTICLE
+#TITLE Clinical Phenotype and Mutant TRα1
+#LINK https://pubmed.ncbi.nlm.nih.gov/22494134/
+#JOURNAL New England Journal of Medicine 2012
+
+#ARTICLE
+#TITLE Insulin resistance: an adaptive mechanism becomes maladaptive in the current environment - an evolutionary perspective
+#LINK https://pubmed.ncbi.nlm.nih.gov/23260798/
+#JOURNAL Metabolism. 2013
+
+#ARTICLE
+#TITLE The Emerging Role of Denosumab in the Long Term Management of Parathyroid Carcinoma-Related Refractory Hypercalcemia
+#LINK https://pubmed.ncbi.nlm.nih.gov/25667369/
+#JOURNAL Endocr Pract. 2015
+
+#ARTICLE
+#TITLE A 45 year old patient with headache, fever, and hyponatraemia
+#LINK https://pubmed.ncbi.nlm.nih.gov/25711278/
+#JOURNAL BMJ 2015

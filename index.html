@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Δρ. Μαρία Ανδρίκουλα Ενδοκρινολόγος Διαβητολόγος Αγρίνιο</title>
+  <meta name="description" content="Η Δρ. Μαρία Ανδρίκουλα είναι Ενδοκρινολόγος–Διαβητολόγος στο Αγρίνιο. Διδάκτωρ Πανεπιστημίου Ιωαννίνων. Εξειδικευμένη φροντίδα για θυρεοειδή, σακχαρώδη διαβήτη, οστεοπόρωση και ενδοκρινοπάθειες."/>
+  <meta name="keywords" content="ενδοκρινολόγος αγρίνιο, διαβητολόγος αγρίνιο, θυρεοειδής, σακχαρώδης διαβήτης, οστεοπόρωση, ανδρίκουλα"/>
+  <meta name="author" content="Δρ. Μαρία Ανδρίκουλα"/>
+  <meta name="robots" content="index, follow"/>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Δρ. Μαρία Ανδρίκουλα",
+    "description": "Ενδοκρινολόγος – Διαβητολόγος",
+    "medicalSpecialty": "Endocrinology",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Αφών Κεντρου 4",
+      "addressLocality": "Αγρίνιο",
+      "postalCode": "301 31",
+      "addressCountry": "GR"
+    },
+    "telephone": "2641100400, +306944475080",
+    "email": "mandrikoula@hotmail.com",
+    "url": "https://andrikoula.gr"
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+
+  <style>
+  /* ═══════════════════════════════════════════════════
+     ANDRIKOULA.GR – STYLESHEET
+     Colors from logo: burgundy #8B1A1A, gold/amber #D4A017, dark brown #4A1A0A
+  ═══════════════════════════════════════════════════ */
+  :root {
+    --burgundy:     #7a1a1a;
+    --burgundy2:    #9b2020;
+    --gold:         #c8960a;
+    --gold-light:   #d8a61a;
+    --gold-pale:    #fdf3dc;
+    --cream:        #faf7f3;
+    --light:        #f4f0eb;
+    --white:        #ffffff;
+    --dark:         #1e0e0e;
+    --text:         #2c1f1f;
+    --muted:        #6b5a5a;
+    --border:       #e5d9d9;
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body:    'DM Sans', sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font-body);color:var(--text);background:var(--white)}
+  img{max-width:100%;height:auto}
+
+  /* ─── TOP BAR ─── */
+  .top-bar{background:var(--dark);color:rgba(255,255,255,.72);font-size:.77rem;padding:.42rem 0}
+  .top-bar .container{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem}
+  .top-bar a{color:rgba(255,255,255,.82);text-decoration:none;display:inline-flex;align-items:center;gap:.35rem;margin-right:1.4rem}
+  .top-bar a:hover{color:var(--gold-light)}
+  .top-bar .social-links{margin-left:auto;display:flex;gap:.7rem}
+  .top-bar .social-links a{margin:0;font-size:1rem}
+
+  /* ─── NAVBAR ─── */
+  .site-nav{background:var(--white);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:999;padding:.1rem 0}
+  .navbar-brand{display:flex;align-items:center;gap:.9rem;padding:.35rem 0}
+  .navbar-brand img.nav-logo{height:72px;width:auto}
+  .navbar-brand .brand-text{display:flex;flex-direction:column}
+  .navbar-brand .brand-name{font-family:var(--font-display);font-size:1.22rem;font-weight:600;color:var(--dark);line-height:1.1}
+  .navbar-brand .brand-sub{font-size:.68rem;font-weight:400;font-family:var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--burgundy)}
+  .nav-link{font-size:.79rem;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:var(--text)!important;padding:1.3rem .8rem!important;transition:color .2s;border-bottom:2px solid transparent}
+  .nav-link:hover,.nav-link.active{color:var(--burgundy)!important;border-bottom-color:var(--burgundy)}
+  .btn-appoint{background:var(--burgundy);color:var(--white)!important;border-radius:2px;padding:.5rem 1.2rem!important;font-size:.77rem!important;letter-spacing:.08em;border-bottom:none!important;transition:background .2s}
+  .btn-appoint:hover{background:var(--burgundy2)!important}
+
+  /* ─── SECTION SHARED ─── */
+  section{padding:5rem 0}
+  .section-tag{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--burgundy);font-weight:500;margin-bottom:.7rem}
+  .section-title{font-family:var(--font-display);font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:400;color:var(--dark);line-height:1.2;margin-bottom:.8rem}
+  .section-title em{font-style:italic;font-weight:300;color:var(--burgundy)}
+  .section-divider{width:2.8rem;height:2px;background:var(--gold);margin:1rem 0 1.4rem}
+  .section-lead{color:var(--muted);font-size:.98rem;line-height:1.85;font-weight:300;max-width:540px}
+
+  /* ─── BUTTONS ─── */
+  .btn-red{background:var(--burgundy);color:var(--white);border:none;padding:.8rem 1.9rem;font-size:.83rem;letter-spacing:.09em;text-transform:uppercase;font-weight:500;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.45rem;cursor:pointer}
+  .btn-red:hover{background:var(--burgundy2);color:var(--white)}
+  .btn-gold{background:var(--gold);color:var(--dark);border:none;padding:.8rem 1.9rem;font-size:.83rem;letter-spacing:.09em;text-transform:uppercase;font-weight:500;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.45rem}
+  .btn-gold:hover{background:var(--gold-light);color:var(--dark)}
+  .btn-ghost{background:transparent;color:white;border:1.5px solid rgba(255,255,255,.45);padding:.8rem 1.9rem;font-size:.83rem;letter-spacing:.09em;text-transform:uppercase;font-weight:500;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.45rem}
+  .btn-ghost:hover{background:rgba(255,255,255,.12);color:white;border-color:rgba(255,255,255,.7)}
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider{position:relative;min-height:92vh;overflow:hidden;background:var(--dark)}
+  .slide{position:absolute;inset:0;opacity:0;display:flex;align-items:center;pointer-events:none;transition:opacity .95s cubic-bezier(.4,0,.2,1);z-index:1}
+  .slide.entering{opacity:0;z-index:2}
+  .slide.active{opacity:1;pointer-events:auto;z-index:2}
+  .slide.active.entering{opacity:0}
+  .slide-bg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform 8s linear}
+  .slide.active .slide-bg{transform:scale(1.04)}
+  .slide-overlay{position:absolute;inset:0;background:linear-gradient(110deg,rgba(30,5,5,.87) 0%,rgba(40,5,5,.60) 55%,rgba(30,5,5,.22) 100%)}
+  .slide-content{position:relative;z-index:2;padding:4rem 0;width:100%}
+  .slide-tag{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-light);font-weight:500;margin-bottom:1rem}
+  .slide h1{font-family:var(--font-display);font-size:clamp(2.4rem,5.5vw,4.6rem);font-weight:300;color:var(--white);line-height:1.08;margin-bottom:1rem}
+  .slide h1 strong{font-weight:600;display:block}
+  .slide p{color:rgba(255,255,255,.75);font-size:1rem;font-weight:300;max-width:500px;line-height:1.85;margin-bottom:2rem}
+  .slider-nav{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;gap:.6rem;z-index:10}
+  .slider-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.35);border:none;cursor:pointer;transition:all .3s;padding:0}
+  .slider-dot.active{background:var(--gold);transform:scale(1.2)}
+  .slider-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:10;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:white;width:46px;height:46px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1.1rem;transition:all .25s;backdrop-filter:blur(4px)}
+  .slider-arrow:hover{background:rgba(255,255,255,.22)}
+  .slider-arrow.prev{left:1.5rem}
+  .slider-arrow.next{right:1.5rem}
+
+  /* ─── HERO RIGHT PANEL ─── */
+  .hero-right-panel{display:flex;gap:1.2rem;align-items:flex-end;justify-content:flex-end}
+  .hero-doctor-photo{position:relative;width:220px;flex-shrink:0}
+  .hero-doctor-photo img{width:100%;height:340px;object-fit:cover;object-position:top;display:block;border:3px solid rgba(200,150,10,.4)}
+  .hero-doctor-label{position:absolute;bottom:0;left:0;right:0;background:rgba(30,5,5,.9);backdrop-filter:blur(8px);padding:.65rem .85rem;border-top:2px solid var(--gold)}
+  .hero-doctor-label strong{display:block;font-size:.82rem;color:var(--white);font-weight:500}
+  .hero-doctor-label span{font-size:.7rem;color:var(--gold-light);letter-spacing:.05em}
+  .hero-stats{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);backdrop-filter:blur(10px);padding:1.5rem 1.2rem;min-width:150px}
+  .stat-item{text-align:center;padding:.8rem 0;border-bottom:1px solid rgba(255,255,255,.1)}
+  .stat-item:last-child{border-bottom:none}
+  .stat-num{font-family:var(--font-display);font-size:2.4rem;font-weight:600;color:var(--gold);line-height:1}
+  .stat-lbl{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-top:.25rem}
+
+  /* ─── SERVICE CARDS ─── */
+  #services{background:var(--cream)}
+  .service-card{background:var(--white);padding:1.8rem;border-left:3px solid transparent;transition:all .3s;height:100%}
+  .service-card:hover{border-left-color:var(--burgundy);box-shadow:0 8px 28px rgba(120,30,30,.1);transform:translateY(-3px)}
+  .svc-icon{width:46px;height:46px;background:var(--gold-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem;flex-shrink:0}
+  .svc-icon i{font-size:1.25rem;color:var(--burgundy)}
+  .service-card h4{font-family:var(--font-display);font-size:1.18rem;color:var(--dark);margin-bottom:.5rem}
+  .service-card p{font-size:.87rem;color:var(--muted);line-height:1.7}
+  .service-link{font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;color:var(--burgundy);text-decoration:none;font-weight:500;margin-top:.9rem;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s}
+  .service-link:hover{gap:.6rem;color:var(--burgundy2)}
+
+  /* ─── PROFILE ─── */
+  #profile{background:var(--light)}
+  .profile-visual{position:relative;overflow:hidden;aspect-ratio:4/5}
+  .profile-photo{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+  .profile-badge{position:absolute;bottom:0;left:0;right:0;background:rgba(30,5,5,.88);backdrop-filter:blur(8px);padding:1rem 1.2rem;border-top:2px solid var(--gold);display:flex;align-items:center;gap:.8rem}
+  .profile-badge i{font-size:1.6rem;color:var(--gold)}
+  .profile-badge strong{display:block;font-size:.88rem;color:var(--white);font-weight:500}
+  .profile-badge span{font-size:.75rem;color:var(--gold-light)}
+  .credential{display:flex;align-items:flex-start;gap:.8rem;margin-bottom:.85rem;padding-bottom:.85rem;border-bottom:1px solid var(--border)}
+  .credential:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+  .credential i{color:var(--burgundy);font-size:1rem;margin-top:.15rem;flex-shrink:0}
+  .credential p{font-size:.9rem;color:var(--muted);line-height:1.6;margin:0}
+
+  /* Short CV box */
+  .cv-box{background:var(--white);overflow-y: auto;max-height: 400px; border-left:3px solid var(--gold);padding:1.4rem 1.6rem;margin-top:1.4rem;border-radius:0 4px 4px 0}
+  .cv-box h5{font-family:var(--font-display);font-size:1.1rem;color:var(--dark);margin-bottom:.7rem}
+  .cv-box p{font-size:.88rem;color:var(--muted);line-height:1.75;margin-bottom:.5rem}
+  .cv-box p:last-child{margin-bottom:0}
+  .cv-download-btn{display:inline-flex;align-items:center;gap:.45rem;margin-top:1rem;background:var(--burgundy);color:var(--white);padding:.55rem 1.3rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:background .2s;border-radius:2px}
+  .cv-download-btn:hover{background:var(--burgundy2);color:var(--white)}
+
+/* ═══ CLINIC GRID ═══ */
+.clinic-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: 320px;  /* increased from 220px */
+  gap: 12px;
+}
+
+/* Large item spans 2 columns AND 2 rows = big feature image */
+.clinic-item--large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* Full-width item spans all 3 columns */
+.clinic-item--full {
+  grid-column: span 3;
+  height: 420px;  /* increased from 300px */
+}
+
+/* Base item */
+.clinic-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clinic-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; /* show top of image, e.g. faces/ceilings */
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.clinic-item:hover img {
+  transform: scale(1.03); /* subtler zoom so less crop on hover */
+}
+
+.clinic-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.6));
+  color: #fff;
+  padding: 24px 14px 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.clinic-item:hover .clinic-caption {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .clinic-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 260px;
+  }
+  .clinic-item--large {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .clinic-item--full {
+    grid-column: span 2;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .clinic-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 280px;
+  }
+  .clinic-item--large,
+  .clinic-item--full {
+    grid-column: span 1;
+    height: auto;
+  }
+}
+  /* ─── ARTICLES ─── */
+  #articles{background:var(--cream)}
+  .article-card{background:var(--white);height:100%;transition:box-shadow .3s,transform .3s;border-bottom:2px solid transparent}
+  .article-card:hover{box-shadow:0 10px 30px rgba(120,30,30,.1);transform:translateY(-4px);border-bottom-color:var(--burgundy)}
+  .article-thumb-placeholder{height:180px;background:linear-gradient(135deg,var(--gold-pale),var(--burgundy));display:flex;align-items:center;justify-content:center}
+  .article-thumb-placeholder i{font-size:3rem;color:rgba(255,255,255,.7)}
+  .article-body{padding:1.4rem}
+  .article-date{font-size:.75rem;color:var(--muted);margin-bottom:.6rem;display:flex;align-items:center;gap:.35rem}
+  .article-card h5{font-family:var(--font-display);font-size:1.1rem;color:var(--dark);line-height:1.4;margin-bottom:.55rem}
+  .article-card p{font-size:.87rem;color:var(--muted);line-height:1.65}
+  .article-more{font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;color:var(--burgundy);text-decoration:none;font-weight:500;margin-top:1rem;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s}
+  .article-more:hover{gap:.6rem}
+
+  /* Papers/publications list */
+  .papers-list{margin-top:2rem}
+  .paper-item{background:var(--white);padding:1.1rem 1.4rem;margin-bottom:.7rem;border-left:3px solid var(--gold);display:flex;align-items:flex-start;gap:.9rem;transition:border-color .2s,box-shadow .2s}
+  .paper-item:hover{border-left-color:var(--burgundy);box-shadow:0 4px 16px rgba(120,30,30,.09)}
+  .paper-item i{color:var(--burgundy);font-size:1.1rem;flex-shrink:0;margin-top:.15rem}
+  .paper-item a{font-size:.91rem;color:var(--dark);text-decoration:none;line-height:1.5;font-weight:400}
+  .paper-item a:hover{color:var(--burgundy);text-decoration:underline}
+  .paper-year{font-size:.72rem;color:var(--muted);margin-top:.2rem;display:block}
+
+  /* Admin panel for adding articles */
+  .admin-input:focus{border-color:var(--burgundy)}
+  #adminForm{display:none;margin-top:1rem}
+
+  /* ─── CONTACT ─── */
+  .contact-light{background:var(--light)}
+  .contact-card-light{background:var(--white);padding:1.6rem;height:100%;border-top:2px solid var(--border);transition:border-color .2s,box-shadow .2s}
+  .contact-card-light:hover{border-top-color:var(--burgundy);box-shadow:0 6px 20px rgba(120,30,30,.1)}
+  .cc-icon{width:42px;height:42px;background:var(--gold-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:.9rem}
+  .cc-icon i{font-size:1.15rem;color:var(--burgundy)}
+  .contact-card-light h5{font-family:var(--font-display);font-size:1.05rem;color:var(--dark);margin-bottom:.35rem}
+  .contact-card-light a{color:var(--muted);text-decoration:none;font-size:.9rem;display:block}
+  .contact-card-light a:hover{color:var(--burgundy)}
+  .contact-card-light p{color:var(--muted);font-size:.9rem;margin:0;line-height:1.55}
+  .schedule-light td{font-size:.84rem;color:var(--muted);padding:.18rem .4rem .18rem 0}
+  .schedule-light td strong{color:var(--dark)}
+  .schedule-badge{display:inline-block;font-size:.7rem;background:var(--gold-pale);color:var(--gold);border:1px solid var(--gold-light);padding:.1rem .45rem;border-radius:2px;font-weight:500}
+  .map-wrap{height:380px;overflow:hidden}
+  .map-wrap iframe{width:100%;height:100%;border:0}
+
+  /* ─── REVIEWS ─── */
+  .reviews-section{background:var(--white);padding:5rem 0}
+  .reviews-carousel{position:relative;overflow:hidden}
+  .reviews-track{display:flex;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+  .review-slide{flex:0 0 25%;max-width:25%;padding:0 .75rem;box-sizing:border-box;transition:flex .3s}
+  .review-card{background:var(--cream);padding:1.6rem;height:100%;border-bottom:2px solid transparent;transition:all .3s}
+  .review-card:hover{box-shadow:0 8px 24px rgba(120,30,30,.1);border-bottom-color:var(--burgundy);transform:translateY(-2px)}
+  .review-card--featured{background:var(--burgundy);color:var(--white)}
+  .review-card--featured .review-text{color:rgba(255,255,255,.9)}
+  .review-card--featured .review-author strong{color:var(--white)}
+  .review-card--featured .review-author span{color:rgba(255,255,255,.6)}
+  .review-stars{color:var(--gold);margin-bottom:.8rem;font-size:.9rem}
+  .review-card--featured .review-stars{color:var(--gold-light)}
+  .review-text{font-size:.9rem;line-height:1.7;color:var(--muted);font-style:italic;margin-bottom:1.1rem}
+  .review-author{display:flex;align-items:center;gap:.7rem}
+  .review-avatar{width:38px;height:38px;border-radius:50%;background:var(--burgundy);color:var(--white);display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:600;flex-shrink:0}
+  .review-card--featured .review-avatar{background:rgba(255,255,255,.25)}
+  .review-author strong{font-size:.88rem;color:var(--dark);display:block}
+  .review-author span{font-size:.76rem;color:var(--muted)}
+  .reviews-controls{display:flex;justify-content:center;gap:.8rem;margin-top:2rem}
+  .reviews-controls button{width:38px;height:38px;border:1.5px solid var(--border);background:var(--white);color:var(--muted);cursor:pointer;transition:all .2s;font-size:.9rem;border-radius:50%;display:flex;align-items:center;justify-content:center}
+  .reviews-controls button:hover{border-color:var(--burgundy);color:var(--burgundy)}
+  .reviews-summary{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:2rem;margin-top:3rem;padding:1.8rem;background:var(--cream);border-top:2px solid var(--gold-pale)}
+  .rating-big{display:flex;align-items:center;gap:1rem}
+  .rating-num{font-family:var(--font-display);font-size:3.2rem;font-weight:600;color:var(--burgundy);line-height:1}
+  .rating-stars{color:var(--gold);font-size:1rem;margin-bottom:.2rem}
+  .rating-count{font-size:.83rem;color:var(--muted)}
+
+  /* ─── FOOTER ─── */
+  footer{background:var(--dark);color:rgba(255,255,255,.55);padding:2rem 0;text-align:center;font-size:.82rem}
+  footer a{color:rgba(255,255,255,.7);text-decoration:none}
+  footer a:hover{color:var(--gold-light)}
+  .footer-logos{display:flex;align-items:center;justify-content:center;gap:1.5rem;margin-bottom:1rem}
+  .footer-logos img{height:44px;width:auto;filter:brightness(0) invert(.75)}
+
+  /* ─── FADE-UP ANIMATION ─── */
+  /* Always visible — JS enhances with animation only when observer confirmed working */
+  .fade-up{opacity:1;transform:none;transition:opacity .65s ease,transform .65s ease}
+  body.js-ready .fade-up{opacity:0;transform:translateY(22px)}
+  body.js-ready .fade-up.visible{opacity:1;transform:translateY(0)}
+
+  /* ─── MOBILE ─── */
+  @media(max-width:767px){
+    .review-slide{flex:0 0 100%!important;max-width:100%!important}
+    .hero-slider{min-height:70vh}
+    .clinic-grid{grid-template-columns:1fr}
+    .clinic-sub{grid-template-columns:1fr 1fr}
+    .clinic-main{height:260px}
+    .clinic-item{height:140px}
+  }
+  @media(min-width:768px) and (max-width:991px){
+    .review-slide{flex:0 0 50%!important;max-width:50%!important}
+  }
+  
+  .rv-dots{display:flex;justify-content:center;gap:.45rem;margin-top:1.2rem}
+  .rv-dot{width:9px;height:9px;border-radius:50%;background:var(--border);border:none;cursor:pointer;padding:0;transition:all .3s}
+  .rv-dot.active{background:var(--burgundy);transform:scale(1.3)}
+  </style>
+</head>
+<body>
+
+<!-- ═══ TOP BAR ═══ -->
+<div class="top-bar">
+  <div class="container">
+    <a href="tel:2641100400, +306944475080"><i class="bi bi-telephone"></i>2641100400, 694 447 5080</a>
+    <a href="mailto:mandrikoula@hotmail.com"><i class="bi bi-envelope"></i>mandrikoula@hotmail.com</a>
+    <a href="https://maps.google.com/?q=Αφών+Κεντρου+4,+Αγρίνιο" target="_blank"><i class="bi bi-geo-alt"></i>Αφών Κεντρου 4, Αγρίνιο</a>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/%CE%BC%CE%B1%CF%81%CE%AF%CE%B1-%CE%B1%CE%BD%CE%B4%CF%81%CE%AF%CE%BA%CE%BF%CF%85%CE%BB%CE%B1-817392350/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:mandrikoula@hotmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="site-nav navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="ΛΟΓΟΤΥΠΟ.jpg" style="height:80px;width:auto;object-fit:contain" alt="Λογότυπο Ανδρίκουλα" class="nav-logo"/>
+      <div class="brand-text">
+        <span class="brand-name">Δρ. Μαρία Ανδρίκουλα</span>
+        <span class="brand-sub">Ενδοκρινολόγος – Διαβητολόγος</span>
+      </div>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="#home">Αρχική</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Υπηρεσίες</a></li>
+        <li class="nav-item"><a class="nav-link" href="#profile">Προφίλ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clinic">Ιατρείο</a></li>
+        <li class="nav-item"><a class="nav-link" href="#articles">Άρθρα</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Επικοινωνία</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-appoint" href="#contact">Ραντεβού</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO SLIDER ═══ -->
+<section id="home" class="hero-slider">
+  <div class="slide active" id="slide-0">
+    <div class="slide-bg" style="background-image:url('im1.jpg');background-size:cover;background-position:center"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-content">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="slide-tag">Εξειδικευμένη Ιατρική Φροντίδα</div>
+          <h1><strong>Ενδοκρινολόγος – Διαβητολόγος</strong></h1>
+          <p>Εξατομικευμένη φροντίδα στο Αγρίνιο, με 25 χρόνια κλινικής εμπειρίας στην Ελλάδα και το εξωτερικό. Διδάκτωρ Πανεπιστημίου Ιωαννίνων.</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#contact" class="btn-gold">Κλείστε Ραντεβού <i class="bi bi-calendar2-check"></i></a>
+            <a href="#services" class="btn-ghost">Οι Υπηρεσίες μου <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-flex justify-content-end">
+          <div class="hero-right-panel">
+            <div class="hero-doctor-photo">
+              <img src="clinic10_crop.jpg" alt="Δρ. Μαρία Ανδρίκουλα"/>
+              <div class="hero-doctor-label">
+                <strong>Δρ. Μαρία Ανδρίκουλα</strong>
+                <span>Ενδοκρινολόγος – Διαβητολόγος</span>
+              </div>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item"><div class="stat-num">25+</div><div class="stat-lbl">Χρόνια Εμπειρίας</div></div>
+              <div class="stat-item"><div class="stat-num">8</div><div class="stat-lbl">Εξειδικευμένες Υπηρεσίες</div></div>
+              <div class="stat-item"><div class="stat-num">PhD</div><div class="stat-lbl">Διδάκτωρ ΠΙ</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="slide-1">
+    <div class="slide-bg" style="background-image:url('im2.jpg');background-size:cover;background-position:center"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-content">
+      <div class="row"><div class="col-lg-7">
+        <div class="slide-tag">Σακχαρώδης Διαβήτης</div>
+        <h1><strong>Προηγμένη Φροντίδα για τον Διαβήτη</strong></h1>
+        <p>Εξατομικευμένες θεραπείες για αποτελεσματική διαχείριση Τύπου 1, Τύπου 2 και Κύησης.</p>
+        <a href="#services" class="btn-gold">Μάθετε Περισσότερα <i class="bi bi-arrow-right"></i></a>
+      </div></div>
+    </div>
+  </div>
+
+  <div class="slide" id="slide-2">
+    <div class="slide-bg" style="background-image:url('im3.jpg');background-size:cover;background-position:center"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-content">
+      <div class="row"><div class="col-lg-7">
+        <div class="slide-tag">Θυρεοειδής</div>
+        <h1><strong>Εξειδικευμένη Φροντίδα Θυρεοειδούς</strong></h1>
+        <p>Διάγνωση και αντιμετώπιση όλων των παθήσεων θυρεοειδούς με σύγχρονες μεθόδους.</p>
+        <a href="#services" class="btn-gold">Μάθετε Περισσότερα <i class="bi bi-arrow-right"></i></a>
+      </div></div>
+    </div>
+  </div>
+
+  <div class="slide" id="slide-3">
+    <div class="slide-bg" style="background-image:url('im4.jpg');background-size:cover;background-position:center"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-content">
+      <div class="row"><div class="col-lg-7">
+        <div class="slide-tag"></div>
+        <h1><strong>Ολοκληρωμένη Φροντίδα Υγείας</strong></h1>
+        <p>Πλήρες φάσμα ενδοκρινοπαθειών — Παθήσεις Θυρεοειδούς, παραθυρεοειδών, υπόφυσης, επινεφριδίων, σακχαρώδους διαβήτη, παχυσαρκίας, οστεοπόρωσης, διαταραχές εμμήνου ρύσεως, διαταραχές ανάπτυξης και εφηβείας.</p>
+        <a href="#services" class="btn-gold">Οι Υπηρεσίες μου <i class="bi bi-grid"></i></a>
+      </div></div>
+    </div>
+  </div>
+
+  <button class="slider-arrow prev" id="sliderPrev"><i class="bi bi-chevron-left"></i></button>
+  <button class="slider-arrow next" id="sliderNext"><i class="bi bi-chevron-right"></i></button>
+  <div class="slider-nav">
+    <button class="slider-dot active" data-idx="0"></button>
+    <button class="slider-dot" data-idx="1"></button>
+    <button class="slider-dot" data-idx="2"></button>
+    <button class="slider-dot" data-idx="3"></button>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6 fade-up">
+        <div class="section-tag">Ιατρικές Υπηρεσίες</div>
+        <h2 class="section-title">Πώς μπορώ <em>να σας βοηθήσω</em></h2>
+        <div class="section-divider"></div>
+        <p class="section-lead">Καλύπτω το πλήρες φάσμα της Ενδοκρινολογίας και του Σακχαρώδη Διαβήτη με σύγχρονες θεραπευτικές προσεγγίσεις και εξατομικευμένη φροντίδα.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-activity"></i></div>
+          <h4>Εμμηνόπαυση</h4>
+          <a href="services/menopause.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-activity"></i></div>
+          <h4>Παραθυρεοειδείς Αδένες</h4>
+          <a href="services/parathyroid.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-activity"></i></div>
+          <h4>Διαταραχές Θυρεοειδούς Αδένα</h4>
+          <a href="services/thyroid-disorders.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-activity"></i></div>
+          <h4>Σύνδρομο Πολυκυστικών Ωοθηκών (ΣΠΩ)</h4>
+          <a href="services/pcos.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+
+      <!-- <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-activity"></i></div>
+          <h4>Θυρεοειδής</h4>
+          <p>Υποθυρεοειδισμός, υπερθυρεοειδισμός, αυτοάνοση θυρεοειδίτιδα και πολυοζώδης Βρογχοκήλη. Υπερηχογράφημα θυρεοειδούς και παραθυρεοειδών αδένων.</p>
+          <a href="services/thyroid.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div> -->
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-droplet"></i></div>
+          <h4>Σακχαρώδης Διαβήτης</h4>
+          <!-- <p>Τύπος 1, Τύπος 2, Κύησης. Εξατομικευμένη θεραπεία και εκπαίδευση ασθενούς.</p> -->
+          <a href="services/diabetes.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <!-- <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-person-heart"></i></div>
+          <h4>Γυναικολογική Ενδοκρινολογία</h4>
+          <p>ΣΠΩ, δασυτριχισμός, εμμηνόπαυση, υπογονιμότητα, αναπαραγωγή, παθήσεις κύησης.</p>
+          <a href="services/gyneco-endo.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div> -->
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-shield-check"></i></div>
+          <h4>Οστεοπόρωση</h4>
+          <!-- <p>Οστεοδενσιτομετρία, πρόληψη καταγμάτων, σύγχρονη φαρμακευτική αντιμετώπιση.</p> -->
+          <a href="services/osteoporosis.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-heart-pulse"></i></div>
+          <h4>Παχυσαρκία</h4>
+          <!-- <p>Ολοκληρωμένο πρόγραμμα αντιμετώπισης παχυσαρκίας με εξατομικευμένη διατροφή.</p> -->
+          <a href="services/obesity.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-clipboard2-pulse"></i></div>
+          <h4>Επινεφρίδια &amp; Υπόφυση</h4>
+          <!-- <p>Παθήσεις επινεφριδίων και υπόφυσης, ορμονικές δυσλειτουργίες, ενδοκρινικές νεοπλασίες.</p> -->
+          <a href="services/adrenal.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-person-lines-fill"></i></div>
+          <h4>Παιδοενδοκρινολογία</h4>
+          <!-- <p>Διαταραχές ανάπτυξης, εφηβείας, σακχαρώδης διαβήτης τύπου 1, ορμονικές διαταραχές παιδιών.</p> -->
+          <a href="services/pregnancy-endo.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3 fade-up">
+        <div class="service-card">
+          <div class="svc-icon"><i class="bi bi-stars"></i></div>
+          <h4>Ιατρική Τρόπου Ζωής</h4>
+          <!-- <p>Προληπτική ιατρική, διατροφή, άσκηση, ευεξία και ολιστική προσέγγιση στη διαχείριση χρόνιων παθήσεων.</p> -->
+          <a href="services/obesity.html" class="service-link">Περισσότερα <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROFILE ═══ -->
+<section id="profile">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-4 fade-up">
+        <div class="profile-visual">
+          <img src="clinic10_crop.jpg" alt="Δρ. Μαρία Ανδρίκουλα"/>
+          <div class="profile-badge">
+            <i class="bi bi-patch-check-fill"></i>
+            <div>
+              <strong>Δρ. Μαρία Ανδρίκουλα</strong>
+              <span>Ενδοκρινολόγος – Διαβητολόγος</span>
+            </div>
+          </div>
+        </div>
+        <!-- Logos -->
+        <div class="d-flex align-items-center gap-3 mt-3 flex-wrap">
+          <img src="ΛΟΓΟΤΥΠΟ.jpg" alt="Λογότυπο" style="height:180px;width:auto;object-fit:contain"/>
+          <!-- <img src="ΛΟΓΟΤΥΠΟ2.jpg" alt="Λογότυπο 2" style="height:180px;width:auto;object-fit:contain"/> -->
+        </div>
+        <!-- Social links -->
+        <div class="mt-3 d-flex gap-2 flex-wrap">
+          <a href="https://www.linkedin.com/in/%CE%BC%CE%B1%CF%81%CE%AF%CE%B1-%CE%B1%CE%BD%CE%B4%CF%81%CE%AF%CE%BA%CE%BF%CF%85%CE%BB%CE%B1-817392350/" target="_blank" class="btn-red" style="font-size:.75rem;padding:.45rem 1rem;"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          <a href="mailto:mandrikoula@hotmail.com" class="btn-gold" style="font-size:.75rem;padding:.45rem 1rem;"><i class="bi bi-envelope"></i> Email</a>
+          <a href="CV_Andrikoula.pdf" download class="cv-download-btn"><i class="bi bi-file-earmark-word"></i> Λήψη Πλήρους Βιογραφικού (DOCX)</a>
+
+        </div>
+      </div>
+
+      <div class="col-lg-8 fade-up">
+        <div class="section-tag">Το Προφίλ μου</div>
+        <h2 class="section-title">Εμπειρία &amp; <em>Εξειδίκευση</em></h2>
+        <div class="section-divider"></div>
+
+        <!-- Credentials -->
+        <div class="credential"><i class="bi bi-mortarboard-fill"></i><p>Ιατρική Σχολή Πανεπιστημίου Ιωαννίνων – Αποφοίτηση 1998 (Λίαν Καλώς)</p></div>
+        <div class="credential"><i class="bi bi-award-fill"></i><p>Διδακτορική Διατριβή (PhD) Ενδοκρινολογία – Πανεπιστήμιο Ιωαννίνων (2003, Άριστα)</p></div>
+        <div class="credential"><i class="bi bi-globe"></i><p>Ειδικότητα στην Παθολογική κλινική Γενικού Νοσοκομείου Αγρινίου (2000-2002)</p></div>
+
+        
+        <div class="credential"><i class="bi bi-globe"></i><p>Ειδικότητα Ενδοκρινολογίας στο Ηνωμένο Βασίλειο: Kent & Sussex Hospital, West Middlesex University Hospital, University Hospital of Wales και στο Πανεπιστημιακό Νοσοκομείο Ιωαννίνων (2003-2007)</p></div>
+        <div class="credential"><i class="bi bi-hospital"></i><p>Τίτλος Ειδικότητας Ενδοκρινολογίας-Διαβήτη-Μεταβολισμού</p></div>
+        <div class="credential"><i class="bi bi-globe2"></i><p>Μετεκπαίδευση στην Ενδοκρινολογία Αναπαραγωγής – Royal Free Hospital Λονδίνου και στην Παιδοενδοκρινολογία – John Radcliffe Hospital Οξφόρδης</p></div>
+        <div class="credential"><i class="bi bi-globe2"></i><p>Λέκτορας (ΠΔ407) στην Ιατρική Σχολή του Πανεπιστημίου Ιωαννίνων (2008-2009)</p></div>
+
+        <div class="credential"><i class="bi bi-patch-check"></i><p>European Board Examination of Endocrinology, Diabetes and Metabolism – Ευρωπαϊκή Ενδοκρινολογική Εταιρεία (2018)</p></div>
+        <div class="credential"><i class="bi bi-mortarboard"></i><p>MSc Endocrine Neoplasia – ΕΚΠΑ (2024–2026) &amp; Lifestyle Medicine (2025–2026)</p></div>
+        <div class="credential"><i class="bi bi-journal-text"></i><p>Δημοσιεύσεις σε ξενόγλωσσα &amp; ελληνικά περιοδικά, κεφάλαια σε έγκριτα βιβλία, ανακοινώσεις σε διεθνή συνέδρια</p></div>
+
+        <!-- Short CV Box -->
+        <div class="cv-box mt-3" style="text-align: justify;">
+          <h5><i class="bi bi-person-badge me-2" style="color:var(--gold)"></i>Σύντομο Βιογραφικό</h5>
+          <p>H ενδοκρινολόγος-διαβητολόγος Μαρία Ανδρίκουλα γεννήθηκε και μεγάλωσε στην Αθήνα. Αποφοίτησε από το 28ο Λύκειο Αθηνών με Άριστα (20/20). Σπούδασε στην Ιατρική Σχολή του Πανεπιστημίου Ιωαννίνων, από όπου αποφοίτησε το 1998 με βαθμό Λίαν Καλώς (8,12/10). Εργάστηκε ως αγροτικός ιατρός στο Κέντρο Υγείας Αμφιλοχίας και ως ειδικευόμενη ιατρός στην Παθολογική κλινική του Νοσοκομείου Αγρινίου για δύο χρόνια. Το 2003 ολοκλήρωσε με Άριστα την Διδακτορική της Διατριβή (PhD) στην Ενδοκρινολογία στην Ιατρική Σχολή του Πανεπιστημίου Ιωαννίνων μετά από έρευνα που αφορούσε στο θυρεοειδή αδένα. Συνέχισε την ειδικότητα της Ενδοκρινολογίας στο Ηνωμένο Βασίλειο, όπου εργάστηκε διαδοχικά σε έμμισθες θέσεις στα Νοσοκομεία Kent and Sussex Hospital, West Middlesex University Hospital και University Hospital of Wales. Επέστρεψε στην Ελλάδα το 2006 και ολοκλήρωσε την ειδικότητά της στην Ενδοκρινολογική κλινική του Γενικού Πανεπιστημιακού Νοσοκομείου Ιωαννίνων. </p>
+          <p>Μετά την απόκτηση του τίτλου ειδικότητας της Ενδοκρινολογίας-Διαβήτη-Μεταβολισμού τον Δεκέμβριο 2007, μετεκπαιδεύτηκε στο Ηνωμένο Βασίλειο στο Τμήμα Ενδοκρινολογίας και Αναπαρωγής/Εμμηνόπαυσης στο Royal Free Ηospital του Λονδίνου και στη συνέχεια στην Παιδοενδοκρινολογική κλινική του Νοσοκομείου John Radcliffe Hospital της Οξφόρδης. Κατά τη διάρκεια της μετεκπαίδευσής της στο Ηνωμένο Βασίλειο, απέκτησε εμπειρία στη διαχείριση ασθενών με προβλήματα αναπαραγωγής, εμμηνόπαυσης, πολυκυστικών ωοθηκών, με διαταραχές ανάπτυξης, εφηβείας και σακχαρώδους διαβήτη τύπου 1 και συμμετείχε ενεργά σε ερευνητικά πρωτόκολλα και στη συγγραφή εργασιών. </p>
+            <p>Τον Οκτώβριο 2008 διορίστηκε στην Ιατρική Σχολή του Πανεπιστημίου Ιωαννίνων ως Λέκτορας και μέχρι το 2011 εργάστηκε ως επιμελήτρια Β’ στην Ενδοκρινολογική κλινική του Πανεπιστημιακού Νοσοκομείου Ιωαννίνων. Το 2010 πήρε την άδεια εκτέλεσης υπερήχων της Ενδοκρινολογίας από το Υπουργείο Υγείας μετά από επιτυχία στις αντίστοιχες κρατικές εξετάσεις πιστοποίησης. Το 2018 η κ. Ανδρίκουλα απέκτησε τη διεθνή πιστοποίηση «European Board Examination of Endocrinology, Diabetes and Metabolism» της Ευρωπαϊκής Ενδοκρινολογικής Εταιρείας. Το 2024 ξεκίνησε μετεκπαίδευση στις «Ενδοκρινικές Νεοπλασίες» στο Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (MsC in Endocrine Neoplasia) την οποία αναμένεται να ολοκληρώσει το 2026, ενώ ταυτόχρονα παρακολουθεί και πρόγραμμα πιστοποιημένης επιμόρφωσης (ΚΕΒΙΔΙΜ) της Ιατρικής Σχολής του Πανεπιστημίου Θεσσαλίας για την «Ιατρική του Τρόπου Ζωής» (Lifestyle Medicine), το οποίο θα ολοκληρωθεί και αυτό το 2026. </p>
+              <p>Διαθέτει 25 χρόνια κλινικής και ερευνητικής εμπειρίας στην Ελλάδα και στο εξωτερικό και διδακτικής εμπειρίας στην Ιατρική Σχολή του Πανεπιστημίου Ουαλίας και του Πανεπιστημίου Ιωαννίνων. Ως επιμελήτρια Β΄ της Ενδοκρινολογικής κλινικής του Πανεπιστημιακού Νοσοκομείου Ιωαννίνων διενεργούσε υπερηχογραφήματα και παρακεντήσεις θυρεοειδούς αδένα στα εξωτερικά ιατρεία της Ενδοκρινολογικής κλινικής του Πανεπιστημιακού Νοσοκομείου Ιωαννίνων, ήταν υπεύθυνη του Παιδοενδοκρινολογικού εξωτερικού ιατρείου της Ενδοκρινολογικής κλινικής και συμμετείχε στο εβδομαδιαίο εκπαιδευτικό πρόγραμμα της κλινικής με επιστημονικές διαλέξεις, παρουσίαση και συζήτηση ενδιαφερόντων περιστατικών, βιβλιογραφική ενημέρωση και κλινική εκπαίδευση των ειδικευόμενων ιατρών της ενδοκρινολογικής κλινικής.  </p>
+                <p>Από το 2011 έως σήμερα η Μαρία Ανδρίκουλα διατηρεί σύγχρονο ενδοκρινολογικό-διαβητολογικό ιατρείο στο κέντρο του Αγρινίου. Έχει παρακολουθήσει πολυάριθμα συνέδρια και μετεκπαιδευτικά σεμινάρια και έχει δώσει και η ίδια αρκετές επιστημονικές διαλέξεις μετά από πρόσκληση. Έχει δημοσιεύσει εργασίες σε ξενόγλωσσα και ελληνικά περιοδικά, κεφάλαια σε έγκριτα βιβλία και έχει ανακοινώσει μελέτες σε αρκετά διεθνή και εθνικά επιστημονικά συνέδρια. Έχει πτυχία δύο ξένων γλωσσών (Αγγλικής και Γαλλικής) και πτυχίο πιάνου, ενώ έχει λάβει και αρκετά βραβεία και υποτροφίες.</p>
+          
+          
+          
+          
+          <a href="CV_Andrikoula.pdf" download class="cv-download-btn"><i class="bi bi-file-earmark-word"></i> Λήψη Πλήρους Βιογραφικού (DOCX)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CLINIC GALLERY ═══ -->
+<section id="clinic" class="clinic-section">
+  <div class="container">
+    <div class="row mb-5 align-items-end">
+      <div class="col-lg-7 fade-up">
+        <div class="section-tag">Χώροι Ιατρείου</div>
+        <h2 class="section-title">Το <em>Ιατρείο</em></h2>
+        <div class="section-divider"></div>
+        <p class="section-lead">Σύγχρονες εγκαταστάσεις στο κέντρο του Αγρινίου, σχεδιασμένες για άνεση και εμπιστοσύνη κατά κάθε επίσκεψη.</p>
+      </div>
+    </div>
+
+    <div class="clinic-grid fade-up">
+
+      <!-- Row 1: 1 large + 2 small -->
+      <div class="clinic-item clinic-item--large">
+        <img src="clinic1.jpg" alt="Αίθουσα Αναμονής"/>
+        <div class="clinic-caption">Αίθουσα Αναμονής</div>
+      </div>
+      <div class="clinic-item">
+        <img src="clinic2.jpg" alt="Εξεταστήριο"/>
+        <div class="clinic-caption">Εξεταστήριο</div>
+      </div>
+      <div class="clinic-item">
+        <img src="clinic3.jpg" alt="Εξοπλισμός"/>
+        <div class="clinic-caption">Εξοπλισμός</div>
+      </div>
+
+      <!-- Row 2: 3 equal -->
+      <div class="clinic-item">
+        <img src="clinic4.jpg" alt="Γραφείο Ιατρού"/>
+        <div class="clinic-caption">Γραφείο Ιατρού</div>
+      </div>
+      <div class="clinic-item">
+        <img src="clinic5.jpg" alt="Υποδοχή"/>
+        <div class="clinic-caption">Υποδοχή</div>
+      </div>
+      <div class="clinic-item">
+        <img src="clinic6.jpg" alt="Διάδρομος"/>
+        <div class="clinic-caption">Διάδρομος</div>
+      </div>
+
+      <!-- Row 3: 2 small + 1 large -->
+      <div class="clinic-item">
+        <img src="clinic7.jpg" alt="Χώρος Παιδιών"/>
+        <div class="clinic-caption">Χώρος Παιδιών</div>
+      </div>
+      <div class="clinic-item">
+        <img src="clinic8.jpg" alt="Τεχνολογία"/>
+        <div class="clinic-caption">Τεχνολογία</div>
+      </div>
+      <div class="clinic-item clinic-item--large">
+        <img src="clinic9.jpg" alt="Χώρος Εξέτασης"/>
+        <div class="clinic-caption">Χώρος Εξέτασης</div>
+      </div>
+
+      <!-- Row 4: full-width -->
+      <div class="clinic-item clinic-item--full">
+        <img src="clinic10.jpg" alt="Πανοραμική Άποψη"/>
+        <div class="clinic-caption">Πανοραμική Άποψη</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ARTICLES / PUBLICATIONS ═══ -->
+<section id="articles">
+  <div class="container">
+    <div class="row mb-4 align-items-end">
+      <div class="col-lg-8 fade-up">
+        <div class="section-tag">Επιστημονικό Έργο</div>
+        <h2 class="section-title">Άρθρα &amp; <em>Δημοσιεύσεις</em></h2>
+        <div class="section-divider"></div>
+        <p class="section-lead">Επιλεγμένες επιστημονικές εργασίες και άρθρα της Δρ. Ανδρίκουλα σε διεθνή περιοδικά.</p>
+      </div>
+    </div>
+
+    <!-- Papers list (clickable) -->
+    <div class="papers-list fade-up" id="papersList" style="max-height: 400px; overflow-y: auto;">
+      <!-- Articles loaded from articles.txt -->
+      <div class="papers-loading" style="color:var(--muted);font-size:.88rem;padding:.8rem 0;display:flex;align-items:center;gap:.5rem">
+        <i class="bi bi-hourglass-split"></i> Φόρτωση δημοσιεύσεων…
+      </div>
+    </div>
+
+        
+  </div>
+</section>
+
+<!-- ═══ REVIEWS (animated carousel) ═══ -->
+<section id="reviews" class="reviews-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center text-center">
+      <div class="col-lg-6 fade-up">
+        <div class="section-tag">Κριτικές Ασθενών</div>
+        <h2 class="section-title">Τι Λένε <em>οι Ασθενείς</em></h2>
+        <div class="section-divider mx-auto"></div>
+        <p class="section-lead mx-auto">Πραγματικές κριτικές από το Google. Η εμπιστοσύνη των ασθενών μου είναι η μεγαλύτερή μου επιτυχία.</p>
+      </div>
+    </div>
+    <div class="reviews-carousel fade-up">
+      <div class="reviews-track" id="reviewsTrack">
+        <!-- Review 1 -->
+        <div class="review-slide">
+          <div class="review-card review-card--featured">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Θα ήθελα να εκφράσω την απόλυτη ικανοποίησή μου από το Ενδοκρινολογικό Ιατρείο – Ανδρικούλα Μαρία. Η γιατρός είναι εξαιρετικά καταρτισμένη, επεξηγηματική και ανθρώπινη. Από την πρώτη κιόλας επίσκεψη ένιωσα ότι αφιέρωσε χρόνο να ακούσει προσεκτικά το ιστορικό μου και να μου εξηγήσει με σαφήνεια το πρόβλημά μου και τις επιλογές θεραπείας.
+              Η επιστημονική της προσέγγιση, σε συνδυασμό με το πραγματικό ενδιαφέρον για τον ασθενή, εμπνέουν εμπιστοσύνη και ασφάλεια.
+              Τη συστήνω ανεπιφύλακτα σε όποιον αναζητά έναν έμπειρο και αξιόπιστο ενδοκρινολόγο.»</p>
+            <div class="review-author">
+              <div class="review-avatar">VK</div>
+              <div><strong>vagelis kostarelos</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Εξαιρετική επιστήμονας και πάνω απ’ όλα άνθρωπος. Με έκανε να νιώσω άνετα από το πρώτο λεπτό, άκουσε προσεκτικά το ιστορικό μου και μου εξήγησε τα πάντα με απλό και κατανοητό τρόπο. Έδειξε πραγματικό ενδιαφέρον για την περίπτωσή μου και με καθοδήγησε αναλυτικά στη θεραπεία και στις εξετάσεις που χρειάστηκα. Τη συστήνω ανεπιφύλακτα σε όποιον αναζητά έναν ενδοκρινολόγο με γνώση, υπευθυνότητα και ανθρώπινη προσέγγιση»</p>
+            <div class="review-author">
+              <div class="review-avatar">ΡΝ</div>
+              <div><strong>Ράνια Νικολάου</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Άριστη επαγγελματίας και ταυτόχρονα άνθρωπος με πραγματικό ενδιαφέρον για τον ασθενή. Ασχολήθηκε διεξοδικά με το ιστορικό μου, μου εξήγησε αναλυτικά τις εξετάσεις και τη θεραπεία και μου ενέπνευσε εμπιστοσύνη. Νιώθω ότι βρίσκομαι σε πολύ καλά χέρια. Τη συστήνω θερμά.»</p>
+            <div class="review-author">
+              <div class="review-avatar">ΚΓ</div>
+              <div><strong>κωνσταντινος Γκαραγκούνης</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 4 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Εξαιρετική γιατρός και άριστα καταρτισμένη στο αντικείμενό της, πάντα ενήμερη για τις εξελίξεις στην ειδικότητά της. Προσηνής και πρόθυμη να εξηγήσει αναλυτικά όσα χρειάζεται να γνωρίζουν οι ασθενείς. Συστήνεται ανεπιφύλακτα.»</p>
+            <div class="review-author">
+              <div class="review-avatar">PF</div>
+              <div><strong>Panagiotis Filos</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 5 -->
+        <div class="review-slide">
+          <div class="review-card review-card--featured">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Καταπληκτική γιατρός!Αμεσότητα και εμπιστοσύνη και κοντά στον ασθενή! έμεινα ικανοποιημένη από το 1ο ραντεβού και έκτοτε δεν την αλλάζω!»</p>
+            <div class="review-author">
+              <div class="review-avatar">XM</div>
+              <div><strong>Xαρίκλεια Μπούρα</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 6 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Εμπνέει εμπιστοσύνη, εξηγεί τα πάντα με απλό και κατανοητό τρόπο και δείχνει πραγματικό ενδιαφέρον για τον ασθενή. Τη συστήνω με κλειστά μάτια!»</p>
+            <div class="review-author">
+              <div class="review-avatar">ΜΔ</div>
+              <div><strong>Μαριάνθη Δημάκου</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 7 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Εξαιρετική σε όλα της. Είναι η γιατρός μου είναι υπέροχη . Σας συστήνω με κλειστά μάτια.»</p>
+            <div class="review-author">
+              <div class="review-avatar">ΛΣ</div>
+              <div><strong>Λενα Σακκα</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 8 -->
+        <div class="review-slide">
+          <div class="review-card">
+            <div class="review-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+            <p class="review-text">«Η ενδοκρινολόγος ειναι εξαιρετική. Αρτια καταρτισμενη, με βαθια γνωση της επιστημης της, εδωσε λυση σε προβλημα που με ταλαιπωρουσε για χρονια. Ειναι ανθρωπινη με σεβασμο στον ασθενη. Τη συστηνω ανεπιφυλακτα!»</p>
+            <div class="review-author">
+              <div class="review-avatar">ΑΠ</div>
+              <div><strong>Aggeliki Papazani</strong><span>Google Review ★★★★★</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="rvDots" style="display:flex;justify-content:center;gap:.45rem;margin-bottom:.8rem"></div>
+    <div class="reviews-controls">
+      <button id="revPrev"><i class="bi bi-chevron-left"></i></button>
+      <button id="revNext"><i class="bi bi-chevron-right"></i></button>
+    </div>
+
+    <div class="reviews-summary fade-up">
+      <div class="rating-big">
+        <span class="rating-num">5.0</span>
+        <div>
+          <div class="rating-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <span class="rating-count">Βασισμένο σε κριτικές Google</span>
+        </div>
+      </div>
+      <a href="https://www.google.com/search?sca_esv=3d067c3d94f87471&sxsrf=ANbL-n6J2cK0Z-7K4-C6dWuvOaKkaRcd3g:1772586022137&q=%CE%95%CE%9D%CE%94%CE%9F%CE%9A%CE%A1%CE%99%CE%9D%CE%9F%CE%9B%CE%9F%CE%93%CE%9F%CE%A3-%CE%94%CE%99%CE%91%CE%92%CE%97%CE%A4%CE%9F%CE%9B%CE%9F%CE%93%CE%9F%CE%A3+%CE%91%CE%9D%CE%94%CE%A1%CE%99%CE%9A%CE%9F%CE%A5%CE%9B%CE%91+%CE%9C%CE%91%CE%A1%CE%99%CE%91+&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOSNAftZt_CdOrN6WVlesFB-wWvuXAH_j7KeOZguqkHjrYEGS3cFtZFr18zDCQT_MdX4WSq4%3D&uds=ALYpb_msRTu-oibK4uhw6Gegh_sCI6gcYAtSVW9ZKteaRgXa0qt30TD_9bMoIEKisF8GoemEoXQN56Wvze-vcCCTneYbu8UsWbBCUrd3-nOe-U--wwO19H6pBeUUf4BvYqhQvkg7woLn6G2HSEf8BkzSy-EVSVKKqAn_6vU2CNZae_xhwLI9FDs&sa=X&ved=2ahUKEwiSt7vBhYWTAxUzg_0HHaYGO84Q3PALegQIMBAF&cshid=1772586037258682&biw=1745&bih=872&dpr=1.1" target="_blank" class="btn-gold mt-3 mt-md-0">Δείτε Όλες τις Κριτικές <i class="bi bi-google"></i></a>
+      <a href="https://www.google.com/search?sca_esv=3d067c3d94f87471&sxsrf=ANbL-n6J2cK0Z-7K4-C6dWuvOaKkaRcd3g:1772586022137&q=%CE%95%CE%9D%CE%94%CE%9F%CE%9A%CE%A1%CE%99%CE%9D%CE%9F%CE%9B%CE%9F%CE%93%CE%9F%CE%A3-%CE%94%CE%99%CE%91%CE%92%CE%97%CE%A4%CE%9F%CE%9B%CE%9F%CE%93%CE%9F%CE%A3+%CE%91%CE%9D%CE%94%CE%A1%CE%99%CE%9A%CE%9F%CE%A5%CE%9B%CE%91+%CE%9C%CE%91%CE%A1%CE%99%CE%91+&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOSNAftZt_CdOrN6WVlesFB-wWvuXAH_j7KeOZguqkHjrYEGS3cFtZFr18zDCQT_MdX4WSq4%3D&uds=ALYpb_msRTu-oibK4uhw6Gegh_sCI6gcYAtSVW9ZKteaRgXa0qt30TD_9bMoIEKisF8GoemEoXQN56Wvze-vcCCTneYbu8UsWbBCUrd3-nOe-U--wwO19H6pBeUUf4BvYqhQvkg7woLn6G2HSEf8BkzSy-EVSVKKqAn_6vU2CNZae_xhwLI9FDs&sa=X&ved=2ahUKEwiSt7vBhYWTAxUzg_0HHaYGO84Q3PALegQIMBAF&cshid=1772586037258682&biw=1745&bih=872&dpr=1.1" target="_blank" class="btn-red mt-3 mt-md-0">Αφήστε Κριτική <i class="bi bi-pencil"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact" class="contact-light">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6 fade-up">
+        <div class="section-tag">Επικοινωνία</div>
+        <h2 class="section-title">Κλείστε <em>Ραντεβού</em></h2>
+        <div class="section-divider"></div>
+        <p class="section-lead">Επικοινωνήστε μαζί μου τηλεφωνικά ή μέσω email για να κλείσετε το ραντεβού σας.</p>
+      </div>
+    </div>
+    <div class="row g-4 mb-5">
+      <div class="col-sm-6 col-lg-3 fade-up">
+        <div class="contact-card-light">
+          <div class="cc-icon"><i class="bi bi-telephone-fill"></i></div>
+          <h5>Τηλέφωνο</h5>
+          <a href="tel:2641100400, +306944475080">2641100400<br>694 447 5080</a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 fade-up">
+        <div class="contact-card-light">
+          <div class="cc-icon"><i class="bi bi-envelope-fill"></i></div>
+          <h5>Email</h5>
+          <a href="mailto:mandrikoula@hotmail.com">mandrikoula@hotmail.com</a>
+          <a href="https://www.linkedin.com/in/%CE%BC%CE%B1%CF%81%CE%AF%CE%B1-%CE%B1%CE%BD%CE%B4%CF%81%CE%AF%CE%BA%CE%BF%CF%85%CE%BB%CE%B1-817392350/" target="_blank" style="margin-top:.35rem;color:var(--burgundy);font-size:.83rem;display:flex;align-items:center;gap:.3rem"><i class="bi bi-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 fade-up">
+        <div class="contact-card-light">
+          <div class="cc-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <h5>Διεύθυνση</h5>
+          <p>Αφών Κεντρου 4<br/>Αγρίνιο, 301 31</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 fade-up">
+        <div class="contact-card-light schedule-card">
+          <div class="cc-icon"><i class="bi bi-clock-fill"></i></div>
+          <h5>Ωράριο</h5>
+          <table class="table table-sm mb-0 table-borderless schedule-light">
+            <tbody>
+              <tr><td>Δευτέρα</td><td><strong>09:00–17:00</strong></td></tr>
+              <tr><td>Τρίτη</td><td><strong>09:00–17:00</strong></td></tr>
+              <tr><td>Τετάρτη</td><td><strong>09:00–17:00</strong></td></tr>
+              <tr><td>Πέμπτη</td><td><strong>09:00–17:00</strong></td></tr>
+              <tr><td>Παρασκευή</td><td class="text-muted">Κλειστά</td></tr>
+              <tr><td>Σαβ – Κυρ</td><td class="text-muted">Κλειστά</td></tr>
+            </tbody>
+          </table>
+          <div class="mt-2"><span class="schedule-badge">Προτείνετε νέες ώρες: 694 447 5080</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="row fade-up">
+      <div class="col-12">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=21.4051%2C38.6223%2C21.4103%2C38.6263&layer=mapnik&marker=38.6243119%2C21.4076855"
+            style="width:100%;height:380px;border:0" allowfullscreen loading="lazy"></iframe>
+          <div style="text-align:right;margin-top:.4rem;font-size:.75rem;">
+            <a href="https://www.openstreetmap.org/?mlat=38.6243119&mlon=21.4076855#map=17/38.6243119/21.4076855" target="_blank" rel="noopener" style="color:var(--burgundy)"><i class="bi bi-box-arrow-up-right"></i> Άνοιγμα στον χάρτη</a>
+            &nbsp;&middot;&nbsp;
+            <a href="https://www.google.com/maps/place/ΕΝΔΟΚΡΙΝΟΛΟΓΟΣ-ΔΙΑΒΗΤΟΛΟΓΟΣ+ΑΝΔΡΙΚΟΥΛΑ+ΜΑΡΙΑ/@38.6243119,21.4076855" target="_blank" rel="noopener" style="color:var(--muted)"><i class="bi bi-google"></i> Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+
+  <p>© 2026 Δρ. Μαρία Ανδρίκουλα – Ενδοκρινολόγος Διαβητολόγος &nbsp;|&nbsp;
+    Αφών Κεντρου 4, Αγρίνιο 301 31 &nbsp;|&nbsp;
+    <a href="tel:2641100400, +306944475080">2641100400, 694 447 5080</a> &nbsp;|&nbsp;
+    <a href="mailto:mandrikoula@hotmail.com">mandrikoula@hotmail.com</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/%CE%BC%CE%B1%CF%81%CE%AF%CE%B1-%CE%B1%CE%BD%CE%B4%CF%81%CE%AF%CE%BA%CE%BF%CF%85%CE%BB%CE%B1-817392350/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+  </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+(function() {
+'use strict';
+
+/* ════════════════════════════════════════
+   1. HERO SLIDER  (bulletproof crossfade)
+   ════════════════════════════════════════ */
+var slides = Array.from(document.querySelectorAll('.slide'));
+var dots   = Array.from(document.querySelectorAll('.slider-dot'));
+if (slides.length) {
+  var cur = 0, busy = false, sliderTimer;
+
+  /* init: all invisible except first */
+  slides.forEach(function(s, i) {
+    s.style.position       = 'absolute';
+    s.style.inset          = '0';
+    s.style.display        = 'flex';
+    s.style.alignItems     = 'center';
+    s.style.opacity        = i === 0 ? '1' : '0';
+    s.style.zIndex         = i === 0 ? '2' : '1';
+    s.style.pointerEvents  = i === 0 ? 'auto' : 'none';
+    s.style.transition     = 'opacity .9s ease';
+  });
+
+  function showSlide(next) {
+    if (busy || next === cur) return;
+    busy = true;
+    var prev = cur;
+    cur = next;
+    slides[next].style.zIndex = '3';
+    slides[next].style.opacity = '0';
+    slides[next].style.pointerEvents = 'none';
+    /* force reflow */
+    slides[next].getBoundingClientRect();
+    slides[next].style.opacity = '1';
+    slides[prev].style.opacity = '0';
+    dots.forEach(function(d,i){ d.classList.toggle('active', i===next); });
+    setTimeout(function(){
+      slides[prev].style.zIndex = '1';
+      slides[next].style.zIndex = '2';
+      slides[next].style.pointerEvents = 'auto';
+      busy = false;
+    }, 950);
+  }
+
+  function nextSlide(){ showSlide((cur+1) % slides.length); }
+  function prevSlide(){ showSlide((cur-1+slides.length) % slides.length); }
+  function resetTimer(){ clearInterval(sliderTimer); sliderTimer = setInterval(nextSlide, 5500); }
+
+  var btnNext = document.getElementById('sliderNext');
+  var btnPrev = document.getElementById('sliderPrev');
+  if (btnNext) btnNext.onclick = function(){ nextSlide(); resetTimer(); };
+  if (btnPrev) btnPrev.onclick = function(){ prevSlide(); resetTimer(); };
+  dots.forEach(function(d){
+    d.onclick = function(){ showSlide(+d.dataset.idx); resetTimer(); };
+  });
+
+  /* touch swipe */
+  var tx = 0;
+  var heroEl = document.querySelector('.hero-slider');
+  if (heroEl) {
+    heroEl.addEventListener('touchstart', function(e){ tx = e.touches[0].clientX; }, {passive:true});
+    heroEl.addEventListener('touchend',   function(e){
+      var dx = e.changedTouches[0].clientX - tx;
+      if (Math.abs(dx) > 40){ dx < 0 ? nextSlide() : prevSlide(); resetTimer(); }
+    }, {passive:true});
+  }
+
+  resetTimer();
+}
+
+
+/* ════════════════════════════════════════
+   2. REVIEWS CAROUSEL  (pixel-perfect)
+   ════════════════════════════════════════ */
+(function(){
+  var track = document.getElementById('reviewsTrack');
+  if (!track) return;
+
+  var slides = Array.from(track.querySelectorAll('.review-slide'));
+  var total  = slides.length;
+  var idx    = 0;
+  var rvTimer;
+
+  function perView(){
+    var w = window.innerWidth;
+    if (w < 576)  return 1;
+    if (w < 992)  return 2;
+    return 4;
+  }
+
+  function move(n){
+    var pv     = perView();
+    var maxIdx = Math.max(0, total - pv);
+    idx = Math.max(0, Math.min(n, maxIdx));
+    /* each slide takes exactly 1/pv of the track width */
+    var pct = idx * (100 / pv);
+    track.style.transform = 'translateX(-' + pct + '%)';
+    /* update dots */
+    document.querySelectorAll('.rv-dot').forEach(function(d,i){
+      d.classList.toggle('active', i === idx);
+    });
+  }
+
+  function buildDots(){
+    var dotsEl = document.getElementById('rvDots');
+    if (!dotsEl) return;
+    dotsEl.innerHTML = '';
+    var pv     = perView();
+    var pages  = Math.max(1, total - pv + 1);
+    for (var i = 0; i < pages; i++){
+      (function(i){
+        var d = document.createElement('button');
+        d.className = 'rv-dot' + (i===0 ? ' active' : '');
+        d.onclick   = function(){ move(i); resetRv(); };
+        dotsEl.appendChild(d);
+      })(i);
+    }
+  }
+
+  function resetRv(){ clearInterval(rvTimer); rvTimer = setInterval(function(){ move(idx+1 < total - perView() + 1 ? idx+1 : 0); }, 4000); }
+
+  var btnNext = document.getElementById('revNext');
+  var btnPrev = document.getElementById('revPrev');
+  if (btnNext) btnNext.onclick = function(){ var pv=perView(); var max=total-pv; move(idx<max?idx+1:0); resetRv(); };
+  if (btnPrev) btnPrev.onclick = function(){ var pv=perView(); var max=total-pv; move(idx>0?idx-1:max); resetRv(); };
+
+  window.addEventListener('resize', function(){
+    idx = 0;
+    buildDots();
+    move(0);
+  });
+
+  /* make sure the track slides are sized correctly */
+  function initSizes(){
+    var pv = perView();
+    slides.forEach(function(s){
+      s.style.flex    = '0 0 ' + (100/pv) + '%';
+      s.style.maxWidth = (100/pv) + '%';
+    });
+  }
+
+  initSizes();
+  buildDots();
+  move(0);
+  resetRv();
+})();
+
+
+/* ════════════════════════════════════════
+   3. FADE-UP  (safe — content visible by default)
+   ════════════════════════════════════════ */
+if ('IntersectionObserver' in window) {
+  document.body.classList.add('js-ready');
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el){ obs.observe(el); });
+}
+
+
+/* ════════════════════════════════════════
+   4. LOAD ARTICLES FROM articles.txt
+   Works locally (file://) AND on Netlify (https://)
+   HOW: tries fetch() first; if blocked by CORS (local),
+        falls back to the embedded inline copy below.
+        On Netlify fetch() always succeeds so the live
+        version always reflects the uploaded articles.txt
+   ════════════════════════════════════════ */
+(function(){
+  var list = document.getElementById('papersList');
+  if (!list) return;
+
+  /* ── Embedded fallback: exact copy of articles.txt ──────────
+     This is used ONLY when opening locally (file://).
+     On Netlify the fetch() below always wins instead.
+     When you update articles.txt on Netlify you do NOT need
+     to update this fallback — it is only for local preview. */
+  var INLINE_ARTICLES = `# ============================================================
+# ΑΡΘΡΑ & ΔΗΜΟΣΙΕΥΣΕΙΣ - Δρ. Μαρία Ανδρίκουλα
+# ============================================================
+# ΜΟΡΦΗ: Κάθε άρθρο ξεκινά με #ARTICLE
+#   #TITLE   → Τίτλος εργασίας (υποχρεωτικό)
+#   #LINK    → Σύνδεσμος DOI ή PubMed (προαιρετικό)
+#   #JOURNAL → Περιοδικό · Έτος (προαιρετικό)
+#
+# Για να ΑΦΑΙΡΕΣΕΤΕ ένα άρθρο: διαγράψτε όλες τις γραμμές του
+# Για να ΠΡΟΣΘΕΣΕΤΕ: αντιγράψτε ένα #ARTICLE μπλοκ και συμπληρώστε
+# ============================================================
+
+#ARTICLE
+#TITLE Thyroid function and autoimmunity in patients with polycystic ovary syndrome
+#LINK https://pubmed.ncbi.nlm.nih.gov/
+#JOURNAL Eur J Endocrinol · 2009
+
+#ARTICLE
+#TITLE Selenium and thyroid disease: from pathophysiology to treatment
+#LINK https://pubmed.ncbi.nlm.nih.gov/
+#JOURNAL Int J Endocrinol · 2010
+
+#ARTICLE
+#TITLE Επίπεδα βιταμίνης D σε ασθενείς με σακχαρώδη διαβήτη τύπου 2
+#LINK https://pubmed.ncbi.nlm.nih.gov/
+#JOURNAL Ελληνικό Περιοδικό Ενδοκρινολογίας · 2015
+
+#ARTICLE
+#TITLE Διαχείριση υποθυρεοειδισμού κατά την εγκυμοσύνη: κλινικές οδηγίες
+#LINK https://pubmed.ncbi.nlm.nih.gov/
+#JOURNAL Αρχεία Ελληνικής Ιατρικής · 2018
+`;
+
+  function parseAndRender(txt) {
+    list.innerHTML = '';
+    var articles = [];
+    var current  = null;
+    txt.split('\n').forEach(function(raw){
+      var line = raw.trim();
+      if (line === '#ARTICLE') {
+        current = {title:'', link:'', journal:''};
+        articles.push(current);
+        return;
+      }
+      if (!current || !line || line.startsWith('# ') || (line.startsWith('#') && !line.startsWith('#TITLE') && !line.startsWith('#LINK') && !line.startsWith('#JOURNAL') && !line.startsWith('#ARTICLE'))) return;
+      if (line.startsWith('#TITLE'))   { current.title   = line.slice(6).trim();   return; }
+      if (line.startsWith('#LINK'))    { current.link    = line.slice(5).trim();    return; }
+      if (line.startsWith('#JOURNAL')) { current.journal = line.slice(8).trim(); return; }
+    });
+    articles = articles.filter(function(a){ return a.title.length > 0; });
+    if (articles.length === 0) {
+      list.innerHTML = '<p style="color:var(--muted);font-size:.88rem">Δεν βρέθηκαν δημοσιεύσεις.</p>';
+      return;
+    }
+    articles.forEach(function(a){
+      var item = document.createElement('div');
+      item.className = 'paper-item';
+      var linkHtml = a.link
+        ? '<a href="' + a.link + '" target="_blank" rel="noopener">' + a.title + '</a>'
+        : '<span style="color:var(--dark)">' + a.title + '</span>';
+      item.innerHTML =
+        '<i class="bi bi-file-earmark-text"></i>' +
+        '<div>' + linkHtml +
+        (a.journal ? '<span class="paper-year">' + a.journal + '</span>' : '') +
+        '</div>';
+      list.appendChild(item);
+    });
+  }
+
+  /* Try fetch first (works on Netlify / any web server) */
+  if (location.protocol !== 'file:') {
+    fetch('articles.txt?v=' + Date.now())
+      .then(function(r){ if(!r.ok) throw new Error(); return r.text(); })
+      .then(parseAndRender)
+      .catch(function(){ parseAndRender(INLINE_ARTICLES); });
+  } else {
+    /* Local file:// → fetch is blocked by CORS, use inline copy */
+    parseAndRender(INLINE_ARTICLES);
+  }
+})();
+
+/* ════════════════════════════════════════
+   5. EXPOSE ADMIN FUNCTIONS TO GLOBAL SCOPE
+      (required for onclick="" HTML attributes)
+   ════════════════════════════════════════ */
+
+/* ════════════════════════════════════════
+   6. NAVBAR active link on click
+   ════════════════════════════════════════ */
+document.querySelectorAll('.nav-link:not(.btn-appoint)').forEach(function(link){
+  link.addEventListener('click', function(){
+    document.querySelectorAll('.nav-link').forEach(function(l){ l.classList.remove('active'); });
+    this.classList.add('active');
+  });
+});
+
+})(); /* end strict */
+</script>
+</body>
+</html>
