@@ -162,6 +162,76 @@
   .cv-download-btn{display:inline-flex;align-items:center;gap:.45rem;margin-top:1rem;background:var(--burgundy);color:var(--white);padding:.55rem 1.3rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:background .2s;border-radius:2px}
   .cv-download-btn:hover{background:var(--burgundy2);color:var(--white)}
 
+
+#sciNewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+ 
+.sci-news-item {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+ 
+.sci-news-text {
+  flex: 1;
+}
+ 
+.sci-news-headline {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--dark, #1a1a2e);
+  margin: 0 0 .85rem;
+  line-height: 1.4;
+}
+ 
+.sci-news-text p {
+  font-size: .88rem;
+  color: var(--muted, #6b7280);
+  line-height: 1.7;
+  margin: 0 0 .6rem;
+}
+ 
+.sci-news-date {
+  font-size: .78rem;
+  color: var(--primary, #378ADD);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  margin-top: .75rem;
+}
+ 
+.sci-news-img {
+  flex-shrink: 0;
+  width: 240px;
+}
+ 
+.sci-news-img img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+ 
+@media (max-width: 640px) {
+  .sci-news-item {
+    flex-direction: column;
+  }
+  .sci-news-img {
+    width: 100%;
+  }
+  .sci-news-img img {
+    height: 200px;
+  }
+}
+    
+    
+    
+    
 /* ═══ CLINIC GRID ═══ */
 .clinic-grid {
   display: grid;
@@ -794,7 +864,40 @@
         <i class="bi bi-hourglass-split"></i> Φόρτωση δημοσιεύσεων…
       </div>
     </div>
-
+    <!-- ═══ SCI-NEWS ═══ -->
+    <div class="fade-up" style="margin-top:3rem;">
+      <div class="section-tag">Επιστημονικές Ειδήσεις</div>
+      <h2 class="section-title">Νέα &amp; Συνέδρια</h2>
+      <div class="section-divider"></div>
+ 
+      <div id="sciNewsList">
+ 
+        <!-- ── NEWS ITEM — copy this block to add more ── -->
+        <div class="sci-news-item">
+          <div class="sci-news-text">
+            <h3 class="sci-news-headline">
+              Τιμητική συμμετοχή στο 53ο Πανελλήνιο Συνέδριο Ενδοκρινολογίας, Μεταβολισμού και Σακχαρώδη Διαβήτη
+            </h3>
+            <p>
+              Η ιατρός κ. Ανδρίκουλα Μαρία συμμετείχε ως προσκεκλημένη ομιλήτρια στο 53ο Πανελλήνιο Συνέδριο Ενδοκρινολογίας, Μεταβολισμού και Σακχαρώδους Διαβήτη που πραγματοποιήθηκε 1–4 Απριλίου στο Ωδείο Αθηνών.
+            </p>
+            <p>
+              Το θέμα της ομιλίας της ήταν ο Σακχαρώδης Διαβήτης Φαρμακευτικής αιτιολογίας. Ανέλυσε τους προδιαθεσικούς παράγοντες, τις κατηγορίες φαρμάκων που μπορούν να προκαλέσουν σακχαρώδη διαβήτη — με έμφαση στα νεότερα ογκολογικά και ανοσοτροποποιητικά φάρμακα — καθώς και τους τρόπους διαχείρησής του.
+            </p>
+            <p>
+              Το συνέδριο περιελάμβανε πλούσιο και πολυδιάστατο επιστημονικό πρόγραμμα που ανέδειξε σύγχρονα ζητήματα αιχμής σε όλο το φάσμα της Ενδοκρινολογίας. Συμμετείχαν διακεκριμένοι Έλληνες και ξένοι ομιλητές, οι οποίοι με τις εισηγήσεις τους προσέδωσαν ξεχωριστό κύρος στο επιστημονικό πρόγραμμα.
+            </p>
+            <span class="sci-news-date"><i class="bi bi-calendar3"></i> Απρίλιος 2025</span>
+          </div>
+          <!-- Image: set src to your image path. Remove this block entirely if no image needed -->
+          <div class="sci-news-img">
+            <img src="cll1.jpg" alt="53ο Πανελλήνιο Συνέδριο Ενδοκρινολογίας">
+          </div>
+        </div>
+        <!-- ── END NEWS ITEM ── -->
+ 
+      </div>
+    </div>
         
   </div>
 </section>
